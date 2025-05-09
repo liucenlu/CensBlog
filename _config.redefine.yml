@@ -430,13 +430,33 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
+      - name: Imagine # audio name
+        artist: John Lennon # audio artist
+        url: https://evan.beee.top/music/Imagine%20-%20John%20Lennon.mp3  # audio url
+        cover: https://evan.beee.top/music/covers/Lennon_Imagine_Sleeve_1975.jpg # audio cover url
+      - name: Something Just Like This
+        artist: Coldplay
+        url: https://evan.beee.top/music/Something%20Just%20Like%20This%20-%20The%20Chainsmokers%E3%80%81Coldplay.mp3
+        cover: https://evan.beee.top/music/covers/Something_Just_Like_This.png  
+      - name: "你的"
+        artist: DouDou
+        url: https://ws.stream.qqmusic.qq.com/M500002AkhKv0YDLIl.mp3?guid=10000&vkey=F759A3933501CB03C19982DA0E48BFA4365CF43B60C24EFD6FAA7B5311442EA8B039F9AF0B7B37B7088746D3666835443F5443CDF7ACCC9A__v21e2a1874&uin=&fromtag=120042&src=M500002UmkXZ01RZpg.mp3
+        cover: https://y.gtimg.cn/music/photo_new/T002R800x800M0000023VbHy1oT80v.jpg?param=1024y1024    
+      - name: "你不知道的事"
+        artist: "王力宏"
+        url: https://sharefs.tx.kugou.com/202505092225/b867ace01f4a1670e5347fe2af894252/v3/ac60c93005b68859f3a01845c323b988/yp/full/ap1000_us0_pi409_s437918375.mp3
+        cover: http://imge.kugou.com/stdmusic/400/20160107/20160107184815841246.jpg?param=1024y1024
+      - name: 山楂树之恋
+        artist: "白允y"
+        url: http://ws.stream.qqmusic.qq.com/M500000Gr4d21lvZYs.mp3?guid=10000&vkey=4B029DCC1E180FA4E0ECF79ABF37C8D3B1BE1395029A45F4FB623CE269C3CF2A1DEE04A024D4759361797AF70FFA33848DD68AB2554405FF__v21e2a171d&uin=&fromtag=120042
+        cover: https://y.gtimg.cn/music/photo_new/T002R300x300M0000041edIs2vco5E.jpg
+      - name: 
+        artist: 
+        url: 
+        cover: 
         lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
