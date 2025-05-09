@@ -453,10 +453,6 @@ plugins:
         artist: "白允y"
         url: http://ws.stream.qqmusic.qq.com/M500000Gr4d21lvZYs.mp3?guid=10000&vkey=4B029DCC1E180FA4E0ECF79ABF37C8D3B1BE1395029A45F4FB623CE269C3CF2A1DEE04A024D4759361797AF70FFA33848DD68AB2554405FF__v21e2a171d&uin=&fromtag=120042
         cover: https://y.gtimg.cn/music/photo_new/T002R300x300M0000041edIs2vco5E.jpg
-      - name: 
-        artist: 
-        url: 
-        cover: 
         lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
