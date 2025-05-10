@@ -237,20 +237,17 @@ home:
   # Sidebar settings
   sidebar:
     enable: true # Whether to enable sidebar
-    position: left # Sidebar position. left, right
-    first_item: menu # First item in sidebar. menu, info
-    announcement: # Announcement text
+    position: right # Sidebar position. left, right
+    first_item: info # First item in sidebar. menu, info
+    announcement: "公告" # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      # Archives: 
-      #   path: /archives 
-      #   icon: fa-regular fa-archive # can be empty
-      # Tags: 
-      #   path: /tags 
-      #   icon: fa-regular fa-tags # can be empty
-      # Categories: 
-      #   path: /categories 
-      #   icon: fa-regular fa-folder # can be empty
+      "归档": 
+        path: /archives 
+        icon: fa-regular fa-archive # can be empty
+      "标签": 
+        path: /tags/
+        icon: fa-regular fa-tags
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
@@ -278,7 +275,7 @@ articles:
     image_alignment: center # image alignment. left, center
     image_caption: false # Whether to display image caption
     link_icon: true # Whether to display link icon
-    delete_mask: false # Add mask effect to <del> tags, hiding content by default and revealing on hover
+    delete_mask: true # Add mask effect to <del> tags, hiding content by default and revealing on hover
     title_alignment: left # Title alignment. left, center
     headings_top_spacing: # Top spacing for headings from h1-h6
       h1: 3.2rem
@@ -296,7 +293,7 @@ articles:
   author_label: 
     enable: true # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
-    list: []
+    list: ["作者"]
   # Code block settings
   code_block:
     copy: true # Whether to enable code block copy button
@@ -311,8 +308,8 @@ articles:
   # Table of contents settings
   toc:
     enable: true # Whether to enable TOC
-    max_depth: 3 # TOC depth
-    number: false # Whether to add number to TOC automatically
+    max_depth: 4 # TOC depth
+    number: true # Whether to add number to TOC automatically
     expand: true # Whether to expand TOC
     init_open: true # Open toc by default
   # Whether to enable copyright notice
@@ -346,7 +343,7 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system: waline # waline, gitalk, twikoo, giscus
+  system: gitalk # waline, gitalk, twikoo, giscus
   # System configuration
   config:
     # Waline comment system. See https://waline.js.org/
@@ -359,10 +356,10 @@ comment:
       reaction: false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
-      clientID: # GitHub Application Client ID
-      clientSecret: # GitHub Application Client Secret
-      repo: # GitHub repository
-      owner: # GitHub repository owner
+      clientID: Ov23liBR3MyhvvK6Xf4N  # GitHub Application Client ID
+      clientSecret: eff80533503f85fd84b8e2dbeb78663cfa5aa4fd # GitHub Application Client Secret
+      repo: gitalk-comment # GitHub repository
+      owner: liucenlu # GitHub repository owner
       proxy: # GitHub repository proxy
     # Twikoo comment system. See https://twikoo.js.org/
     twikoo:
@@ -453,6 +450,10 @@ plugins:
         artist: "白允y"
         url: http://ws.stream.qqmusic.qq.com/M500000Gr4d21lvZYs.mp3?guid=10000&vkey=4B029DCC1E180FA4E0ECF79ABF37C8D3B1BE1395029A45F4FB623CE269C3CF2A1DEE04A024D4759361797AF70FFA33848DD68AB2554405FF__v21e2a171d&uin=&fromtag=120042
         cover: https://y.gtimg.cn/music/photo_new/T002R300x300M0000041edIs2vco5E.jpg
+      - name: "Ross"
+        artist: ""
+        url: http://ws.stream.qqmusic.qq.com/M500003y7RbR1Yg6rg.mp3?guid=10000&vkey=2EB0C4CD4A2B3F683D4363E6D984FD45DADB214788A24C761617E923B793FE189F996EC47A5CD73B595DD02CC1007E2973C13A9613261E46__v2b9ab84e&uin=&fromtag=120042&src=M500003y7RbR1Yg6rg.mp3
+        cover: https://y.gtimg.cn/music/photo_new/T002R800x800M000003VKIWa46Lpuj.jpg
         lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
