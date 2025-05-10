@@ -1,7 +1,7 @@
 ---
 title: 用hexo+netlify+github搭建博客网站实践
 date: 2025-05-09 16:54:32
-tags:
+tags: test
 ---
 
 ### 博客系统组成
