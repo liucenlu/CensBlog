@@ -131,7 +131,7 @@ home_banner:
   title: Cen's Blog
   # Home banner subtitle
   subtitle: 
-    text: ["欢迎来到我的博客网页~随便看看", "别太认真呀，我什么都会往上放的"] # subtitle text, array
+    text: ["欢迎来到我的博客网页~随便看看", "别太认真呀，毕竟它还未足月"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
